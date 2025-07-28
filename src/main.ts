@@ -10,7 +10,7 @@ async function bootstrap() {
 
   app.enableCors({
     //CAMBIAR CUANDO YA SE CUENTE CON EL FRONT DESPLEGADO
-    origin: 'http://127.0.0.1:5500', 
+    origin: 'https://frontend-distribuidas.onrender.com',
     credentials: true,
   });
   
